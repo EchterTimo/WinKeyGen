@@ -26,7 +26,7 @@ def print_banner() -> None:
         "             Licensed under the GNU GENERAL PUBLIC LICENSE",
         "",
         "This program uses Microsoft's algorithm to generate random Windows 10 keys",  # this is a lie, but it sounds good
-        "   Feel free tu run the program several times to find a working key",
+        "   Feel free to run the program several times to find a working key",
         "                  --- NOT ALL KEYS WILL WORK ---"
     ]
     print("\n".join(lines))
