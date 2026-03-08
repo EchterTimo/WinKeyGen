@@ -36,7 +36,7 @@ def generate_key(
 ) -> str:
     '''Generates a random Windows 10 product key.'''
 
-    key_without_dashes = random.sample(CHARACTERS, k=25)
+    key_without_dashes = random.choices(CHARACTERS, k=25)
     key = TEMPLATE
 
     # sequentially fill in the template with the characters from key_without_dashes
